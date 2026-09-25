@@ -1,0 +1,10 @@
+# PIP AND THE PAPER RAINBOW (use its own virtualenv: kokoro-onnx wants numpy 2, basic-pitch wants numpy 1)
+numpy
+scipy
+skia-python
+soundfile
+mido
+kokoro-onnx>=0.4.9
+onnxruntime
+# optional, for `python -m paper.audio --check` (speech-recognition round trip of every line)
+sherpa-onnx

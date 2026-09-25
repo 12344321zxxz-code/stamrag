@@ -1,5 +1,6 @@
 build/
 build_chase/
+build_paper/
 out/
 __pycache__/
 *.pyc
