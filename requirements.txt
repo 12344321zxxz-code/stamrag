@@ -1,0 +1,5 @@
+numpy
+scipy
+librosa
+skia-python
+soundfile

@@ -1,0 +1,7 @@
+build/
+out/
+__pycache__/
+*.pyc
+*.mp3
+*.wav
+*.mp4
