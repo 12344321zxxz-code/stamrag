@@ -836,7 +836,7 @@ def _build_purple():
             a = math.radians(-90 + 36 * k)
             r = 34 if k % 2 == 0 else 15
             pts.append((1750 + r * math.cos(a), 700 + r * math.sin(a)))
-        piece(c, cpath(pts, 615, 0.6, smooth=False), "#ff8a5c", 615, lift=1.2)
+        piece(c, cpath(pts, 615, 0.6), "#ff8a5c", 615, lift=1.2)
     L["rocks"] = Layer((200, 400, W + 60, 1000), rocks)
     return L
 
