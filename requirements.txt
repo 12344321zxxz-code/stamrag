@@ -1,5 +1,7 @@
-numpy
+numpy<2
 scipy
 librosa
 skia-python
 soundfile
+basic-pitch
+onnxruntime

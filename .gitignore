@@ -1,7 +1,11 @@
 build/
+build_chase/
 out/
 __pycache__/
 *.pyc
 *.mp3
 *.wav
 *.mp4
+*.mid
+*.npy
+*.npz
